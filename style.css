@@ -1,0 +1,117 @@
+
+@font-face {
+    font-family: "Kamerik";
+    src: url("./assets/Kamerik.ttf");
+}
+@font-face {
+    font-family: "Typekiln - EloquiaText-ExtraLight";
+    src: url(./assets/Typekiln\ -\ EloquiaText-ExtraLight.otf);
+}
+@font-face {
+    font-family: "Aceh-Light" ;
+    src: url("./assets/Aceh-Light.ttf");
+}
+body{
+    margin: 0;
+    overflow: hidden;
+  }
+.main-img{
+    position: relative;
+    left: 740px;
+    bottom: 520px;
+    height: 600px;
+}
+.Logo{
+    position: relative;
+    left: 110px;
+    top: 48px;
+    width: 130px;
+}
+.list{
+    list-style: none;
+    font-family: "Aceh-Light";
+    font-weight: bold;
+}
+.Home{
+    position: relative;
+    left: 290px;
+    bottom: 3.5px;
+    font-size: 21px;
+}
+.About{
+    position: relative;
+    left: 380px;
+    bottom: 25px;
+    font-size: 18.5px;
+    opacity: 40%;
+}
+.Services{
+    position: relative;
+    left: 472px;
+    bottom: 45.5px;
+    font-size: 18px;
+    opacity: 40%;
+}
+.Portfolio{
+    position: relative;
+    left: 573px;
+    bottom: 65.25px;
+    font-size: 18px;
+    opacity: 40%;
+}
+.Pricing{
+    position: relative;
+    left: 674px;
+    bottom: 85.75px;
+    font-size: 18px;
+    opacity: 40%;
+}
+#contact{
+    position: relative;
+    left: 1230px;
+    bottom: 575px;
+    width: 138px;
+    height: 52px;
+    border-radius: 15px;
+    background-color: #5955b3;
+    color: white;
+    border: none;
+    font-size: 17px;
+    cursor: pointer;
+}
+.heading-text{
+    position: relative;
+    top: 20px;
+    font-family: "Kamerik";
+    color: #3c2f60;
+    left: 128px;
+    font-size: 72px;
+    line-height: 80px;
+}
+.crush{
+    color: #5955b3;
+}
+.description{
+    position: relative;
+    left: 138px;
+    font-size: 18px;
+    color: #929292;
+    opacity: 85%;
+    line-height: 28px;
+    font-family: "Typekiln - EloquiaText-ExtraLight";
+    font-weight: bolder;
+
+}
+#Services{
+    position: relative;
+    font-size: 23px;
+    top: 30px;
+    height: 75px;
+    width: 270px;
+    border-radius: 20px;
+    background-color: #5955b3;
+    color: white;
+    border: none;
+    cursor: pointer;
+    
+}
